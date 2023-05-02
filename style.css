@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+@import url("style/header.css");
+:root {
+  --rosa: #a65369;
+  --roxo-claro: #8a038c;
+  --roxo: #5c2b8c;
+  --laranja: #f26e22;
+  --preto: #0d0d0d;
+  --cor-primaria: #e9e9e9;
+  --branco: #ffffff;
+  --fonte-primaria: "Jost";
+}
+
+body {
+  color: var(--preto);
+  font-family: var(--fonte-primaria);
+}
+
+.root {
+  background-repeat: no-repeat;
+  contain: content;
+}
+
+.secundaria {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.container {
+  height: 25vh;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.logo {
+  margin: 4em 12em;
+  width: 200px;
+}
+.container__botao {
+  background-color: var(--laranja);
+  border-radius: 10px;
+  padding: 1em;
+  color: var(--branco);
+  margin-right: 1em;
+  text-decoration: none;
+  font-weight: 700;
+}
+.tv,
+.inicio,
+.internet,
+.telefone,
+.combo {
+  padding: 1em 3em;
+}
+.botoes {
+  position: relative;
+  padding: 8em 1em;
+  margin-top: 10px;
+}
+
+.foguete {
+  position: absolute;
+  width: 500px;
+  padding: 0 em 15em;
+  margin: 0;
+}
+
+.parte-alta {
+  padding-bottom: 5px;
+}
+
+.texto__internet {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0 3em;
+  padding-top: 2em;
+}
+
+.retangulo-grande {
+  position: absolute;
+  margin: 0em 70em;
+  padding: 0;
+  height: 100%;
+}
+.retangulo-pequeno {
+  position: absolute;
+  margin: 11em 56em;
+}
+/* telefonia */
+
+.homem-celular {
+  position: absolute;
+  width: 500px;
+  padding: 4em 4em;
+  margin: 0;
+}
+
+.texto_telefone {
+  margin: 0em 14em 0em 43em;
+  padding-top: 70px;
+  font-weight: 700;
+}
+
+.titulo-telefone {
+  font-size: 50px;
+}
+
+.paragrafo-telefone {
+  font-size: 30px;
+  padding-top: 14px;
+}
+
+.retangulog-internet {
+  margin: 0em -2em;
+  transform: scaleX(-1);
+  height: 90%;
+}
+.retangulop-internet {
+  margin: 3em 2em;
+}
+/*televisão*/
+
+.televisao {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-top: 23.4em;
+}
+
+.texto-televisao {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0 3em;
+  padding-top: 2em;
+}
+
+.titulo-televisao {
+  font-size: 50px;
+}
+
+.paragrafo-televisao {
+  font-size: 30px;
+  padding-top: 14px;
+}
+
+.homem-cofre {
+  position: absolute;
+  width: 500px;
+  padding: 4em 0em;
+  margin: 0;
+}
+
+.retangulo-tv {
+  margin: 4em 55em;
+  height: 75%;
+}
+
+/*planos*/
+.todos-cards {
+  display: flex;
+}
+
+.card {
+  background: var(--branco);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+  width: 15em;
+}
+
+.descricao__titulo {
+  color: var(--laranja);
+  font-weight: 700;
+}
