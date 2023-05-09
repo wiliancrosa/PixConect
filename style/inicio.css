@@ -1,0 +1,35 @@
+.inicio_section {
+  height: 90vh;
+  color: var(--roxo);
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.texto-inicio {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 3em;
+  margin-right: 5em;
+}
+
+.texto-icones-container {
+  padding-top: 5em;
+}
+.imagem-inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.imagem-inicio-homem {
+  width: 35em;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+  padding-right: 9em;
+  gap: 2em;
+  scale: 200%;
+}

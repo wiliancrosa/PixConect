@@ -101,3 +101,7 @@
   padding-top: 70px;
   font-weight: 700;
 }
+
+.assineja_tv:hover {
+  background-color: var(--laranja-hover);
+}

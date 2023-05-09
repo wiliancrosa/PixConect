@@ -2,15 +2,20 @@
 @import url("style/internet.css");
 @import url("style/telefonia.css");
 @import url("style/televisao.css");
+@import url("style/inicio.css");
+@import url("style/header.css");
 :root {
-  --rosa: #a65369;
+  --rosa: #e5e4e5;
   --roxo-claro: #8a038c;
+  --roxo-hover: #5c125ef5;
   --roxo: #5c2b8c;
   --laranja: #f26e22;
+  --laranja-hover: #8b4015;
   --preto: #0d0d0d;
   --cor-primaria: #e9e9e9;
   --branco: #ffffff;
   --fonte-primaria: "Jost";
+  --verde: #05a027;
 }
 
 body {
@@ -24,7 +29,7 @@ body {
 }
 
 .secundaria {
-  height: 80vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 60% 40%;
 }
@@ -37,7 +42,7 @@ body {
 
 .logo {
   margin: 4em 12em;
-  width: 200px;
+  width: 12.5em;
 }
 .container__botao {
   background-color: var(--laranja);
@@ -56,7 +61,14 @@ body {
   padding: 1em 3em;
 }
 .botoes {
-  position: relative;
   padding: 8em 1em;
-  margin-top: 10px;
+  margin-top: 0.5em;
+}
+
+.tv:hover,
+.inicio:hover,
+.internet:hover,
+.telefone:hover,
+.combo:hover {
+  background-color: var(--laranja-hover);
 }

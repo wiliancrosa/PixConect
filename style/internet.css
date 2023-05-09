@@ -1,8 +1,7 @@
 .foguete {
   position: absolute;
-  width: 500px;
-  padding: 0 em 15em;
-  margin: 0;
+  width: 457px;
+  margin-top: 101px;
 }
 
 .parte-alta {
@@ -20,7 +19,8 @@
   position: absolute;
   margin: 0em 70em;
   padding: 0;
-  height: 100%;
+  width: 28%;
+  height: 45%;
 }
 .retangulo-pequeno {
   position: absolute;
@@ -94,4 +94,8 @@
 .todos_slides {
   width: 848px;
   height: 30em;
+}
+
+.botao-assineja_internet:hover {
+  background-color: var(--roxo-hover);
 }

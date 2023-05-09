@@ -1,0 +1,28 @@
+.cabecalho {
+  background-color: #eceaea;
+}
+
+.numero_whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding-top: 2em;
+  justify-content: end;
+  padding-right: 15em;
+  padding-bottom: 0.5em;
+}
+
+.whatsapp {
+  width: 1.5%;
+}
+
+.numero_telefone {
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.numero_telefone:hover {
+  border-radius: 10px;
+  color: var(--verde);
+}
